@@ -30,7 +30,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Fira Code', monospace;
-    background: url('static/images/background.gif') no-repeat center center fixed;
+   /* background: url('static/images/Matrix.mov') no-repeat center center fixed;*/
     background-size: cover;
     color: #ccffd8; /* Soft readable green */
     line-height: 1.6;
@@ -311,4 +311,28 @@ strong {
 .news-section h2 {
     margin-top: 40px;
     color: #00ff88;
+}
+
+
+/* Background Video Styling */
+#bgVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Send video behind content */
+}
+
+/* Main Content Styling */
+.content {
+    position: relative;
+    z-index: 1;
+    font-family: 'Fira Code', monospace;
+    color: #ccffd8;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4); /* optional: for contrast */
+    backdrop-filter: brightness(0.7);
 }

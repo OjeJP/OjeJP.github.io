@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-{% extends "base.html" %}
-{% block content %}
+<nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="certifications.html">Certifications</a>
+    <a href="contact.html">Contact</a>
+    <a href="blog.html">Blog</a>
+</nav>
 
-<div class="profile-header">
-    <img src="{{ url_for('static', filename='images/jp.jpeg') }}" alt="Profile Picture" class="profile-pic">
-    <div class="profile-text">
-        <h1>Oje Johnson Pamilerin</h1>
-        <p class="subtitle">Cybersecurity Analyst | Junior Penetration Tester</p>
+<div class="container">
+
+    <div class="profile-header">
+        <img src="static/images/jp.jpeg" alt="Profile Picture" class="profile-pic">
+        <div class="profile-text">
+            <h1>Oje Johnson Pamilerin</h1>
+            <p class="subtitle">Cybersecurity Analyst | Junior Penetration Tester</p>
+        </div>
     </div>
-</div>
 
 <section>
     <h2>Professional Summary</h2>
@@ -83,7 +91,13 @@
     <p><a href="/static/docs/Your_Name_CV.pdf" target="_blank">Download My CV (PDF)</a></p>
 </section>
 
-{% endblock %}
+</div>
+
+<!-- Scroll Buttons -->
+<button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">↑</button>
+
+<!-- Load external JS -->
+<script src="static/js/main.js"></script>
 
 </body>
 </html>

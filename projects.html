@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+     <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-{% extends "base.html" %}
-{% block content %}
+<nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="certifications.html">Certifications</a>
+    <a href="contact.html">Contact</a>
+     <a href="blog.html">Blog</a>
+</nav>
 
+<div class="container">
 <h1>Featured Cybersecurity Projects</h1>
 
 <p class="intro-text">
@@ -50,8 +57,12 @@
     <p><a href="https://github.com/yourusername/threat-hunting-elk" target="_blank">View Project on GitHub</a></p>
 </section>
 
-{% endblock %}
+</div>
 
+<!-- Scroll Buttons -->
+<button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">↑</button>
 
+<!-- Load external JS -->
+<script src="static/js/main.js"></script>
 </body>
 </html>

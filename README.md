@@ -1,6 +1,6 @@
 **🌐 Johnson Oje – Cybersecurity Portfolio Website**
 
-Welcome to my personal portfolio website, hosted using **GitHub Pages** at: 👉 [https://ojejp.github.io](https://johnsonoje.github.io)
+Welcome to my personal portfolio website, hosted using **GitHub Pages** at: 👉 [https://ojejp.github.io](https://ojejp.github.io)
 
 This site highlights my journey, experience, and passion in the fields of **Cybersecurity**, **Information Security**, and **Penetration Testing**. It also serves as a space where I share projects, technical blogs, and educational materials.
 
